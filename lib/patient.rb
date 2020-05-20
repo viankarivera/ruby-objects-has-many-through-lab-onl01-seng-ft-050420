@@ -9,17 +9,17 @@ class Patient
   def initialize(name)
     @name = name
     @@all << self
-  end 
+  end
 
   def new_appointment(date, doctor)
 
-  end 
+  end
 
-  def appointments 
+  def appointments
     Appointment.all.select {|appointment| appointment.patient == self}
 
-  end 
+  end
 
   def doctors
 
-  end 
+  end
