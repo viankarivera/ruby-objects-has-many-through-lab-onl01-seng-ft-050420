@@ -1,4 +1,4 @@
-class Appointment 
+class Appointment
   attr_accessor :name, :patient, :doctor
   @@all = []
 
@@ -6,6 +6,6 @@ class Appointment
     @date = date
     @patient = patient
     @doctor = doctor
-    @@all << self 
+    @@all << self
   end 
-end 
+end
