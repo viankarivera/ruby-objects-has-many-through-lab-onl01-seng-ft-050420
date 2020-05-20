@@ -22,7 +22,6 @@ class Patient
   end
 
   def doctors
-    appointments.collect {|appointment| appointment.doctor}
-
+    self.appointments.collect {|appointment| appointment.doctor}
   end
 end 
