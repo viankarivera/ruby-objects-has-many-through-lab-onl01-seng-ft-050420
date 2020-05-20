@@ -9,4 +9,12 @@ class Doctor
     @name = name
     @@all << self
   end 
+
+  def new_appointment
+
+  end 
+
+  def patients 
+
+  end 
 end
