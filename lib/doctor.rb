@@ -8,13 +8,13 @@ class Doctor
   def initialize(name)
     @name = name
     @@all << self
-  end 
+  end
 
   def new_appointment
 
-  end 
+  end
 
-  def patients 
+  def patients
 
   end 
 end
